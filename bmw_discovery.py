@@ -10,9 +10,9 @@ import subprocess
 # ── Configuração ──────────────────────────────────────────────────────────────
 MQTT_HOST = "192.168.0.101"
 MQTT_PORT = "1883"
-MQTT_USER = sys.argv[1] if len(sys.argv) > 1 else "ha"
-MQTT_PASS = sys.argv[2] if len(sys.argv) > 2 else "toze3"
-VIN       = sys.argv[3] if len(sys.argv) > 3 else "WBY8P610807F39507"
+MQTT_USER = sys.argv[1] if len(sys.argv) > 1 else "your_user"
+MQTT_PASS = sys.argv[2] if len(sys.argv) > 2 else "your_pass"
+VIN       = sys.argv[3] if len(sys.argv) > 3 else "your_VIN"
 
 BASE = f"bmw/vehicles/{VIN}"
 
